@@ -1,7 +1,5 @@
 
-# Created by https://www.gitignore.io/api/nity,unity,visualstudio,sublimetext,windows,linux,osx,monodevelop
-
-#!! ERROR: nity is undefined. Use list command to see defined gitignore types !!#
+# Created by https://www.gitignore.io/api/unity,visualstudio,sublimetext,windows,linux,osx,monodevelop
 
 ### Unity ###
 /[Ll]ibrary/
