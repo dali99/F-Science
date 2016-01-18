@@ -1,2 +1,2 @@
 # F-Science
-A Unity game where you solve puzzles by chaning physical constants
+A Unity game where you solve puzzles by changing physical constants
