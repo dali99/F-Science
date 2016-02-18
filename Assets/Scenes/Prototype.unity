@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 278485188}
   - 212: {fileID: 278485187}
-  - 61: {fileID: 278485189}
+  - 68: {fileID: 278485189}
   m_Layer: 8
   m_Name: CountryPlatform
   m_TagString: Ground
@@ -144,8 +144,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!61 &278485189
-BoxCollider2D:
+--- !u!68 &278485189
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -155,9 +155,10 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0, y: -0.97}
-  serializedVersion: 2
-  m_Size: {x: 3.84, y: 0.3}
+  m_Offset: {x: 0, y: -0.82}
+  m_Points:
+  - {x: -1.92, y: 0}
+  - {x: 1.92, y: 0}
 --- !u!1 &434900315 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 126370, guid: 8bab69d39ffd31140904d4fe3e13b5cb, type: 2}

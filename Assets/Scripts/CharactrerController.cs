@@ -23,7 +23,7 @@ public class CharactrerController : MonoBehaviour {
 
 	void Update () {
         isGrounded = groundCheck.IsTouchingLayers(1<<LayerMask.NameToLayer("Obstacle"));
-        float hAxis = Input.GetAxis("Horizontal");
+        float hAxis = Input.GetAxis("Horizontal")*moveForce;
 
         if (isGrounded && hAxis != 0)
         {
