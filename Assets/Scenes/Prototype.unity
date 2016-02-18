@@ -209,8 +209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebfe293bea6e1d2469cd89c002819a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveForceMultiplier: 100
   maxMoveForce: 3
-  jumpForce: 2
+  jumpForce: 300
 --- !u!1001 &1082578369
 Prefab:
   m_ObjectHideFlags: 0
@@ -220,11 +221,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 402752, guid: 8bab69d39ffd31140904d4fe3e13b5cb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8.6348
+      value: -8.474
       objectReference: {fileID: 0}
     - target: {fileID: 402752, guid: 8bab69d39ffd31140904d4fe3e13b5cb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.823
+      value: -1.686
       objectReference: {fileID: 0}
     - target: {fileID: 402752, guid: 8bab69d39ffd31140904d4fe3e13b5cb, type: 2}
       propertyPath: m_LocalPosition.z
